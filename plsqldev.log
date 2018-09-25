@@ -1,0 +1,351 @@
+---------------------------11/9/2011 4:20:33 PM---------------------------
+Exception 'EFCreateError' in module plsqldev.exe at 00027FD5
+Cannot create file "C:\Documents and Settings\SyedAz\Desktop\Books\WordList.dat". The system cannot find the path specified
+
+Call stack:
+:00428FD5 [plsqldev.exe]
+:7C812AEB [kernel32.dll]
+:00428FD5 [plsqldev.exe]
+:0040ED47 [plsqldev.exe]
+:00402F46 [plsqldev.exe] (system.pas, line 2466)
+:00405E0A [plsqldev.exe] (system.pas, line 11704)
+:0040526A [plsqldev.exe] (system.pas, line 9066)
+Recursive call (2 times):
+:00428FD5 [plsqldev.exe]
+:00405212 [plsqldev.exe] (system.pas, line 9019)
+:00428F0D [plsqldev.exe]
+:00427D92 [plsqldev.exe]
+:00AFCCCF [plsqldev.exe] (HTMLUnit.pas, line 1384)
+:0049C8FA [plsqldev.exe]
+:00491941 [plsqldev.exe]
+:00491A35 [plsqldev.exe]
+:0049C75F [plsqldev.exe]
+:7E42530D [user32.dll]
+:7E4299D8 [user32.dll]
+Recursive call (2 times):
+:7E42530D [user32.dll]
+:7E43B082 [user32.dll]
+:7E43B036 [user32.dll]
+:7E418734 [user32.dll]
+:7C90EB99 [ntdll.dll]
+:7C90D32A [ntdll.dll]
+:7C830C5F [kernel32.dll]
+:7C830C78 [kernel32.dll]
+:7E418BD9 [user32.dll]
+:0049F7C0 [plsqldev.exe]
+:7E42941E [user32.dll]
+:00491805 [plsqldev.exe]
+:0049C52F [plsqldev.exe]
+:0049F8F8 [plsqldev.exe]
+:0049FF50 [plsqldev.exe]
+:0049C75F [plsqldev.exe]
+:7E42A998 [user32.dll]
+:7E43B036 [user32.dll]
+:0049F8A4 [plsqldev.exe]
+:7E43B036 [user32.dll]
+:0049C75F [plsqldev.exe]
+:7E42C23C [user32.dll]
+:5AD8C2B1 [uxtheme.dll]
+:7E418BD9 [user32.dll]
+:7E43B036 [user32.dll]
+:7E43B082 [user32.dll]
+:7E43B036 [user32.dll]
+:0049F7C0 [plsqldev.exe]
+:00425B75 [plsqldev.exe]
+:00441C89 [plsqldev.exe]
+:0049F43B [plsqldev.exe]
+:0049F452 [plsqldev.exe]
+:0049F7C0 [plsqldev.exe]
+:004328B2 [plsqldev.exe]
+:0049F43B [plsqldev.exe]
+:004328B2 [plsqldev.exe]
+:7E418734 [user32.dll]
+:7E418816 [user32.dll]
+:7E428EA0 [user32.dll]
+:7E428EEC [user32.dll]
+:7C90E473 [ntdll.dll]
+:7E4194BE [user32.dll]
+:7E42C174 [user32.dll]
+:7E4292E3 [user32.dll]
+:7E44FF7D [user32.dll]
+:7E4465D2 [user32.dll]
+:7E425E94 [user32.dll]
+Recursive call (3 times):
+:7E43B036 [user32.dll]
+:7E418BD9 [user32.dll]
+:7E41885A [user32.dll]
+:7E41882A [user32.dll]
+:7E43B036 [user32.dll]
+:7E43B082 [user32.dll]
+:7E43B036 [user32.dll]
+:7E418734 [user32.dll]
+Recursive call (2 times):
+:7E43B036 [user32.dll]
+:7E418816 [user32.dll]
+Recursive call (2 times):
+:7E43B036 [user32.dll]
+:7E42A013 [user32.dll]
+:7E43B036 [user32.dll]
+:7E42A998 [user32.dll]
+:7E43B036 [user32.dll]
+:0049F8A4 [plsqldev.exe]
+:7E43B036 [user32.dll]
+:0049CCFF [plsqldev.exe]
+:0049C75F [plsqldev.exe]
+:7E43E1AD [user32.dll]
+:7E43E18A [user32.dll]
+:005623B5 [plsqldev.exe] (TntForms.pas, line 767)
+:7E42B372 [user32.dll]
+:7E42B317 [user32.dll]
+Recursive call (2 times):
+:7E42B326 [user32.dll]
+:7E4278D0 [user32.dll]
+:7E4278E0 [user32.dll]
+:7C90E473 [ntdll.dll]
+:00562360 [plsqldev.exe] (TntForms.pas, line 724)
+:7E4298B2 [user32.dll]
+:7E42ACED [user32.dll]
+:0049F5E8 [plsqldev.exe]
+:7E43E1AD [user32.dll]
+:0049F7C0 [plsqldev.exe]
+:00491805 [plsqldev.exe]
+
+Main Thread ID = 00000BD8, Current Thread ID = 00000BD8
+Registers:
+EAX = 001BF454  CS = 001B  EIP = 7C812AEB  Flags = 00200202
+EBX = 0163ADC0  SS = 0023  ESP = 001BF450    EBP = 001BF4A4
+ECX = 00000000  DS = 0023  ESI = 001BF4D8    FS  = 003B
+EDX = 00428FD5  ES = 0023  EDI = 0163FFFF    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 85 FF 0F 8E 36 93 FF FF 8B 55 FC 
+Stack:
+016304E0 0EEDFADE 00000001 00000000 7C812AEB 
+00000000 00000000 00491805 00404E05 029703B8 
+0043890B 00000002 00000000 00000000 016266F0 
+00491805 0000003C FFFFFFFF FFFFFFFF FFFFFFFF 
+
+Additional info:
+
+PL/SQL Developer
+  Version 7.0.3.1123 (MBCS)
+  277.36784 - Unlimited user license
+  Windows XP version 6.0 (build 2600) Service Pack 3
+  
+  Physical memory : 2,052,648 kB  (1,421,056 available)
+  Paging file     : 3,991,068 kB  (3,436,752 available)
+  Virtual memory  : 2,097,024 kB  (1,992,588 available)
+
+Parameters
+  C:\Documents and Settings\SyedAz\Desktop\plsqldev.exe
+
+Preferences
+  Session mode: Multi
+  OCI Library: D:\oracle10gdevsuite\bin\oci.dll
+  Use OCI7: True
+
+Preference Files
+  C:\Documents and Settings\SyedAz\Desktop\Preferences\SyedAz\default.ini
+
+Plug-Ins
+
+Aliases
+  ORCL
+
+Homes
+  oracle10gclient  (D:\oracle10gclient)
+  oracle10gdevsuite  (D:\oracle10gdevsuite)
+
+DLLs
+  D:\oracle10gclient\bin\oci.dll
+
+TNS File
+  D:\oracle10gclient\Network\Admin\tnsnames.ora
+
+Using
+  Home: oracle10gclient
+  DLL: D:\oracle10gdevsuite\bin\oci.dll
+  OCI: version 9.2
+  Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 
+  Character size: 1 byte(s)
+
+Windows
+ *
+
+---------------------------11/17/2011 3:51:15 PM---------------------------
+Exception 'EFCreateError' in module plsqldev.exe at 00027FD5
+Cannot create file "C:\Documents and Settings\SyedAz\Desktop\PROSIRIUS\Books\WordList.dat". The system cannot find the path specified
+
+Call stack:
+:00428FD5 [plsqldev.exe]
+:7C812AEB [kernel32.dll]
+:00428FD5 [plsqldev.exe]
+:0040ED47 [plsqldev.exe]
+:00402F46 [plsqldev.exe] (system.pas, line 2466)
+:00405E0A [plsqldev.exe] (system.pas, line 11704)
+:0040526A [plsqldev.exe] (system.pas, line 9066)
+Recursive call (2 times):
+:00428FD5 [plsqldev.exe]
+:00405212 [plsqldev.exe] (system.pas, line 9019)
+:00428F0D [plsqldev.exe]
+:00427D92 [plsqldev.exe]
+:00AFCCCF [plsqldev.exe] (HTMLUnit.pas, line 1384)
+:0049C8FA [plsqldev.exe]
+:00491941 [plsqldev.exe]
+:00491A35 [plsqldev.exe]
+:0049C75F [plsqldev.exe]
+:7E42530D [user32.dll]
+:7E4299D8 [user32.dll]
+Recursive call (2 times):
+:7E42530D [user32.dll]
+:7E43B082 [user32.dll]
+:7E43B036 [user32.dll]
+:7E418734 [user32.dll]
+:7C90EB99 [ntdll.dll]
+:7C90D32A [ntdll.dll]
+:7C830C5F [kernel32.dll]
+:7C830C78 [kernel32.dll]
+:7E418BD9 [user32.dll]
+:0049F7C0 [plsqldev.exe]
+:7E42941E [user32.dll]
+:00491805 [plsqldev.exe]
+:0049C52F [plsqldev.exe]
+:0049F8F8 [plsqldev.exe]
+:0049FF50 [plsqldev.exe]
+:0049C75F [plsqldev.exe]
+:7E42A998 [user32.dll]
+:7E43B036 [user32.dll]
+:0049F8A4 [plsqldev.exe]
+:7E43B036 [user32.dll]
+:0049C75F [plsqldev.exe]
+:7E43B3EC [user32.dll]
+:5AD8C2B1 [uxtheme.dll]
+:7E418BD9 [user32.dll]
+:7E43B036 [user32.dll]
+:7E43B082 [user32.dll]
+:7E43B036 [user32.dll]
+:0049F7C0 [plsqldev.exe]
+:00425B75 [plsqldev.exe]
+:00441C89 [plsqldev.exe]
+:0049F43B [plsqldev.exe]
+:0049F452 [plsqldev.exe]
+:0049F7C0 [plsqldev.exe]
+:004328B2 [plsqldev.exe]
+:0049F43B [plsqldev.exe]
+:004328B2 [plsqldev.exe]
+:7E418734 [user32.dll]
+:7E418816 [user32.dll]
+:7E428EA0 [user32.dll]
+:7E428EEC [user32.dll]
+:7C90E473 [ntdll.dll]
+:7E4194BE [user32.dll]
+:7E42C174 [user32.dll]
+:7E4292E3 [user32.dll]
+:7E44FF7D [user32.dll]
+:7E4465D2 [user32.dll]
+:7E425E94 [user32.dll]
+Recursive call (3 times):
+:7E43B036 [user32.dll]
+:7E418BD9 [user32.dll]
+:7E41885A [user32.dll]
+:7E41882A [user32.dll]
+:7E43B036 [user32.dll]
+:7E43B082 [user32.dll]
+:7E43B036 [user32.dll]
+:7E418734 [user32.dll]
+Recursive call (2 times):
+:7E43B036 [user32.dll]
+:7E418816 [user32.dll]
+Recursive call (2 times):
+:7E43B036 [user32.dll]
+:7E42A013 [user32.dll]
+:7E43B036 [user32.dll]
+:7E42A998 [user32.dll]
+:7E43B036 [user32.dll]
+:0049F8A4 [plsqldev.exe]
+:7E43B036 [user32.dll]
+:0049CCFF [plsqldev.exe]
+:0049C75F [plsqldev.exe]
+:7E43E1AD [user32.dll]
+:7E43E18A [user32.dll]
+:005623B5 [plsqldev.exe] (TntForms.pas, line 767)
+:7E42B372 [user32.dll]
+:7E42B317 [user32.dll]
+Recursive call (2 times):
+:7E42B326 [user32.dll]
+:7E4278D0 [user32.dll]
+:7E4278E0 [user32.dll]
+:7C90E473 [ntdll.dll]
+:00562360 [plsqldev.exe] (TntForms.pas, line 724)
+:7E4298B2 [user32.dll]
+:7E42ACED [user32.dll]
+:0049F5E8 [plsqldev.exe]
+:7E43E1AD [user32.dll]
+:0049F7C0 [plsqldev.exe]
+:00491805 [plsqldev.exe]
+
+Main Thread ID = 000016F4, Current Thread ID = 000016F4
+Registers:
+EAX = 001BF454  CS = 001B  EIP = 7C812AEB  Flags = 00200202
+EBX = 01639F50  SS = 0023  ESP = 001BF450    EBP = 001BF4A4
+ECX = 00000000  DS = 0023  ESI = 001BF4D8    FS  = 003B
+EDX = 00428FD5  ES = 0023  EDI = 0163FFFF    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 85 FF 0F 8E 36 93 FF FF 8B 55 FC 
+Stack:
+019FD230 0EEDFADE 00000001 00000000 7C812AEB 
+00000000 00000000 00491805 00404E05 03176668 
+0043890B 00000002 00000000 00000000 016267E0 
+00491805 0000003C FFFFFFFF FFFFFFFF FFFFFFFF 
+
+Additional info:
+
+PL/SQL Developer
+  Version 7.0.3.1123 (MBCS)
+  277.36784 - Unlimited user license
+  Windows XP version 6.0 (build 2600) Service Pack 3
+  
+  Physical memory : 2,052,648 kB  (1,194,856 available)
+  Paging file     : 3,991,068 kB  (3,085,832 available)
+  Virtual memory  : 2,097,024 kB  (1,994,688 available)
+
+Parameters
+  C:\Documents and Settings\SyedAz\Desktop\PROSIRIUS\plsqldev.exe
+
+Preferences
+  Session mode: Multi
+  OCI Library: 
+  Use OCI7: False
+
+Preference Files
+  C:\Documents and Settings\SyedAz\Desktop\PROSIRIUS\Preferences\SyedAz\default.ini
+
+Plug-Ins
+
+Aliases
+  EBSR12
+  EXTPROC_CONNECTION_DATA
+  UBJ
+  UBJ1
+  UBJ2
+
+Homes
+  oracle10gclient  (D:\oracle10gclient)
+  oracle10gdevsuite  (D:\oracle10gdevsuite)
+
+DLLs
+  D:\oracle10gdevsuite\bin\oci.dll
+
+TNS File
+  D:\oracle10gdevsuite\Network\Admin\tnsnames.ora
+
+Using
+  Home: oracle10gdevsuite
+  DLL: D:\oracle10gdevsuite\bin\oci.dll
+  OCI: version 9.2
+  Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 
+  Character size: 1 byte(s)
+
+Windows
+ *Report Window - New
+  
+

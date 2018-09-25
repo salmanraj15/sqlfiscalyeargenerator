@@ -1,0 +1,16 @@
+CREATE OR REPLACE PROCEDURE func2 (s_day in date,f1 in out number,f2 in out number,eofm IN date,f3 in out number,wk out number,x in number,f7 in out number)
+IS
+begin
+  f1 := f2;
+  if (mod((to_char((eofm-s_day))+1),x)) = 0 then
+  f2 := (to_char((eofm-s_day))+1)/x;
+  else
+  f2 := ceil((to_char((eofm-s_day))+1)/x);
+  end if;
+  if f1 - f2 < 0 or f3 = 0 then
+  f3 := f2;
+  f7 := f7 + 1;
+  end if;
+   wk := f3 - f2 + 1;
+end;
+/
